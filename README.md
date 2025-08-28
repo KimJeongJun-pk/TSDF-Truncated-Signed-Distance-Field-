@@ -7,3 +7,10 @@ ubuntu 20.04 ROS Noetic에서 RGB-D와 LiDAR 기반 TSDF 패키지
   : 외부 파라미터(Extrinsic Parameter) 수정
   
   : 카메라 및 LiDAR 토픽 수정
+
+#Downloads
+``` $ cd ~/catkin_ws/src
+    $ git clone https://github.com/KimJeongJun-pk/tsdf.git
+    $ cd ~/catkin_ws
+    $ catkin_make
+```
